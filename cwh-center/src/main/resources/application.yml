@@ -1,0 +1,9 @@
+spring:
+ application:
+  name: cwh-center
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false #不作为客户端注册到注册中心
+    fetchRegistry: false #为true时，可以启动，但报异常：Cannot execute request on any known server
