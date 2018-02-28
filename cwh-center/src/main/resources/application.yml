@@ -2,7 +2,7 @@ spring:
  application:
   name: cwh-center
 server:
-  port: 8761
+  port: 8050
 eureka:
   client:
     registerWithEureka: false #不作为客户端注册到注册中心
