@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletResponse;
 
-@ControllerAdvice("com.github.wxiaoqi.security")
+@ControllerAdvice("com.github.cwh.common")
 @ResponseBody
 public class GlobalExceptionHandler {
     private Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
