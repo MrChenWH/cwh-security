@@ -3,7 +3,7 @@ package com.github.cwh.common.msg;
 import lombok.Data;
 
 @Data
-public class ObjectRestResponse<T> {
+public class ObjectRestResponse<T> extends BaseResponse {
     T data;
     boolean rel;
 

@@ -1,7 +1,5 @@
 package com.github.cwh.common.msg;
 
-import lombok.Data;
-
 /**
  * @author cwh
  */

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ace-common</artifactId>
+    <artifactId>cwh-common</artifactId>
     <build>
         <plugins>
             <plugin>
